@@ -64,6 +64,23 @@ nav a:hover {
     grid-template-columns: 100px 1fr;
     text-align: center;
 }
+footer {
+    background-color: #00171F;
+    color: #EEE0CB;
+    font-size: 1.5em;
+    grid-column: 1/11;
+
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
 #mov-title {
     font-size: 600%;
     text-align: center;
@@ -146,15 +163,155 @@ nav a:hover {
 
 
 
-footer {
-    background-color: #00171F;
-    color: #EEE0CB;
-    font-size: 1.5em;
-    grid-column: 1/11;
 
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
+
+#anime-banner {
+    display: grid;
+    grid-template-columns: 1;
+}
+#ani-title {
+    font-size: 600%;
+    text-align: center;
+    background-color: #EFD28D;
+    color: #00171F;
+    border: 30px solid #FF5E5B;
+}
+
+
+.ani-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    margin: 30px;
     align-items: center;
+    grid-gap: 30px;
+}
+
+.fox {
+    width: 400px;
+    height: 600px;
+    grid-column: 1/2;
+    background-color: #00171F;
+    padding: 30px;
+}
+.fox-msg {
+    grid-column: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
+}
+.norman {
+    width: 400px;
+    height: 600px;
+    grid-column: 2/3;
+    background-color: #00171F;
+    padding: 30px;
+    margin-left: auto;
+}
+.norman-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
+}
+.kubo {
+    width: 400px;
+    height: 600px;
+    grid-column: 1/2;
+    background-color: #00171F;
+    padding: 30px;
+}
+.kubo-msg {
+    grid-column: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
+}
+
+
+
+
+
+
+#series-banner {
+    display: grid;
+    grid-template-columns: 1;
+}
+#series-title {
+    font-size: 600%;
+    text-align: center;
+    background-color: #00171F;
+    color: #EFD28D;
+    border: 30px solid #FF5E5B;
+}
+
+
+
+.series-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    margin: 30px;
+    align-items: center;
+    grid-gap: 30px;
+}
+.chuck {
+    width: 400px;
+    height: 600px;
+    grid-column: 1/2;
+    background-color: #00171F;
+    padding: 30px;
+}
+.chuck-msg {
+    grid-column: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
+}
+.stranger {
+    width: 400px;
+    height: 600px;
+    grid-column: 2/3;
+    background-color: #00171F;
+    padding: 30px;
+    margin-left: auto;
+}
+.stranger-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
+}
+.interest {
+    width: 400px;
+    height: 600px;
+    grid-column: 1/2;
+    background-color: #00171F;
+    padding: 30px;
+}
+.interest-msg {
+    grid-column: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: #00171F;
+    background-color: #FF5E5B;
+    padding: 50px;
+    border: 30px solid #EFD28D;
 }
